@@ -10,7 +10,7 @@ def calculate_risk(user_data, privileged_groups):
         score += 40
         reasons.append(f"Privileged groups: {', '.join(privileged_groups)}")
     
-    # 2. Riesgo por inactividad (esto es lógico, podemos mejorar el cálculo luego)
+    # 2. Riesgo por inactividad (esto es lógico, se puede mejorar el cálculo luego)
     # Por ahora, si 'last_login' es 'Nunca', penalizamos fuerte
     if user_data['last_login'] == "Nunca":
         score += 30
