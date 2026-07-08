@@ -1,6 +1,6 @@
 def print_terminal_report(results):
     """Muestra el reporte formateado en la terminal."""
-    print("\n--- ACCESS RELEVANCE ANALYZER ---")
+    print("\n--- LINUX PRIVILEGED ACCESS REVIEW  ---")
     if not results:
         print("No se encontraron usuarios de riesgo.")
         return
