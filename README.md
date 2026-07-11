@@ -110,7 +110,7 @@ Total usuarios revisados: 1
 ├── README.md
 └── LICENSE
 
-
+```
 ---
 
 # ⚙️ Arquitectura
