@@ -1,7 +1,8 @@
 from analyzer.users import get_all_users
 from analyzer.groups import get_user_privileged_groups
 from analyzer.risk import calculate_risk
-from analyzer.report import print_terminal_report # Importamos el nuevo módulo
+from analyzer.report import print_terminal_report, export_json_report
+
 
 def run_scan():
     users = get_all_users()
@@ -17,8 +18,12 @@ def run_scan():
                 "risk": risk
             })
     
-    # Delegamos la responsabilidad de mostrar al usuario
     print_terminal_report(report_data)
+    
+    # Exportar siempre para tener evidencia
+    if report_data:
+        export_json_report(report_data)
+
 
 if __name__ == "__main__":
     run_scan()
