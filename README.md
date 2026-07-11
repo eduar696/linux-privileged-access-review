@@ -115,7 +115,7 @@ Total usuarios revisados: 1
 
 # ⚙️ Arquitectura
 El proyecto sigue un flujo modular donde cada componente tiene una responsabilidad específica.
-
+```
 Usuarios Linux
         │
         ▼
@@ -132,7 +132,7 @@ Motor de evaluación de riesgo
         │
         ▼
 Reporte en consola (tabla) + Exportación JSON
-
+```
 
 # ⚠️ Limitaciones
 Este proyecto está orientado a ejercicios de auditoría y aprendizaje.
