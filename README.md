@@ -98,7 +98,7 @@ Total usuarios revisados: 1
 # 📁 Estructura del Proyecto
 
 ```
-.
+
 ├── analyzer/
 │   ├── users.py
 │   ├── groups.py
