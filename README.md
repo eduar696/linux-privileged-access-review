@@ -137,20 +137,20 @@ Reporte en consola (tabla) + Exportación JSON
 # ⚠️ Limitaciones
 Este proyecto está orientado a ejercicios de auditoría y aprendizaje.
 
-    No realiza monitoreo continuo.
-    No modifica permisos del sistema.
-    El puntaje de riesgo se basa en reglas definidas dentro del proyecto.
-    Los resultados deben interpretarse como apoyo para una revisión manual.
+- No realiza monitoreo continuo.
+- No modifica permisos del sistema.
+- El puntaje de riesgo se basa en reglas definidas dentro del proyecto.
+- Los resultados deben interpretarse como apoyo para una revisión manual.
 
 
 
 # 🎯 Objetivo del Proyecto
 Este repositorio fue desarrollado como proyecto de aprendizaje para practicar:
 
-    Automatización con Python.
-    Administración de sistemas Linux.
-    Auditoría básica de accesos privilegiados.
-    Análisis mediante reglas de riesgo.
-    Organización y documentación de proyectos técnicos en GitHub.
+- Automatización con Python.
+- Administración de sistemas Linux.
+- Auditoría básica de accesos privilegiados.
+- Análisis mediante reglas de riesgo.
+- Organización y documentación de proyectos técnicos en GitHub.
 
 El proyecto no pretende sustituir soluciones completas de gestión de identidades (IAM/PAM), sino demostrar una implementación propia para apoyar revisiones periódicas de cuentas privilegiadas.
