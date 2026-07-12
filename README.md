@@ -93,7 +93,7 @@ Total usuarios revisados: 1
     subprocess
     datetime
     tabulate
-    ```
+    
 
 # 📁 Estructura del Proyecto
 
