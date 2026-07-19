@@ -85,16 +85,24 @@ El resultado no determina automáticamente si una cuenta es segura o insegura. S
 ```text
 --- LINUX PRIVILEGED ACCESS REVIEW ---
 
-+-----------+---------+---------+-----------------------------------+
-| Usuario   | Nivel   | Score   | Razones                           |
-+===========+=========+=========+===================================+
-| lab-admin     | MEDIUM  | 40      | Privileged groups: adm,sudo   |
-+-----------+---------+---------+-----------------------------------+
++-----------+---------+---------+------------------------------+
+| Usuario   | Nivel   |   Score | Razones                      |
++===========+=========+=========+==============================+
+| raude     | HIGH    |      70 | Privileged groups: adm, sudo |
+|           |         |         | Never logged in              |
++-----------+---------+---------+------------------------------+
+| highuser  | HIGH    |      70 | Privileged groups: sudo      |
+|           |         |         | Never logged in              |
++-----------+---------+---------+------------------------------+
+| meduser   | HIGH    |      70 | Privileged groups: adm       |
+|           |         |         | Never logged in              |
++-----------+---------+---------+------------------------------+
+| lowuser   | LOW     |      30 | Never logged in              |
++-----------+---------+---------+------------------------------+
 
-Total usuarios revisados: 1
+Total usuarios revisados: 4
 
 [+] Reporte exportado a report.json
-
 
 ```
 ---
